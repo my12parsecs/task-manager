@@ -2,11 +2,6 @@ const Task = require("../models/Task");
 
 
 
-
-
-
-
-
 const getAllTasks = async (req, res) => {
   try {
     // findの中身が空だったらfind all documents
